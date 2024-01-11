@@ -1,4 +1,8 @@
 function getFile() {
     const file = document.getElementById("file").value
-    document.getElementById("img").innerHTML = file
+    if (file) {
+        document.getElementById("img").innerHTML = file
+    }else{
+        alert("File was not choosed!")
+    }
 }
