@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div>
+      <h2 class="text-font">Kalit orqali qiymat</h2>
+      <form action="FOR_FILE_.php" method="post">
+         <input id="file" oninput="getFile()" class="input-file" type="file" name="file">
+         <label for="file"><img src="folder-open-solid.svg" alt=""></label>
+         <span id="img"></span>
+         <input class="input-text" type="text" name="key" placeholder="*Key">
+         <button class="button" type="submit"> topish </button>
+      </form>
+   </div>
+   <script src="filekv.js"></script>
+</body>
+
+</html>
